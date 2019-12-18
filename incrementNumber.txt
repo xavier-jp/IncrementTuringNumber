@@ -1,0 +1,30 @@
+name: Increment binary number
+init: s0
+accept: s3
+
+s0,0
+s0,0,>
+
+s0,1
+s0,1,>
+
+s0,_
+s1,_,<
+
+s1,1
+s1,0,<
+
+s1,_
+s2,1,>
+
+s1,0
+s2,1,>
+
+s2,0
+s2,0,>
+
+s2,1
+s2,1,>
+
+s2,_
+s3,_,<
